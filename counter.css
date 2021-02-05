@@ -1,0 +1,27 @@
+/* Flickity counter v0.0.1
+------------------------- */
+
+.flickity-counter {
+  left: 10px;
+  top: 10px;
+  padding: 3px 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 4px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.flickity-counter-enabled {
+  display: block;
+}
+
+.filckity-counter-disabled {
+  display: none;
+}
+
+/* right-to-left */
+.flickity-rtl .flickity-counter {
+  left: auto;
+  right: 10px;
+}
